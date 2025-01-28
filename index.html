@@ -1,0 +1,1120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University</title>
+    <link rel="icon" type="image/x-icon" href="assets/Images/logo23.png">
+
+    <!-- Preload critical resources -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap" as="style">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    
+    <!-- JS (defer loading) -->
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+
+<body>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasRightLabel"></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+     <div class="main-menu">
+<button onclick="window.location='workshop.html'">
+    <h3>
+        Workshops
+    </h3>
+    <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" stroke-width="1.5" d="M8.474 18.966L15.44 12 8.474 5.033"></path></svg>
+</button>
+<button onclick="window.location='travel-mobility.html'">
+    <h3>
+        Travel & Mobility
+    </h3>
+    <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" stroke-width="1.5" d="M8.474 18.966L15.44 12 8.474 5.033"></path></svg>
+</button>
+<button onclick="window.location='Affiliation-programs.html'">
+    <h3>
+        Affiliate Offers
+    </h3>
+    <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" stroke-width="1.5" d="M8.474 18.966L15.44 12 8.474 5.033"></path></svg>
+</button>
+<button onclick="window.location='index.html'">
+    <h3>
+        Gamification
+    </h3>
+    <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" stroke-width="1.5" d="M8.474 18.966L15.44 12 8.474 5.033"></path></svg>
+</button>
+<button onclick="window.location='index.html'">
+    <h3>
+        AI Integration
+    </h3>
+    <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" stroke-width="1.5" d="M8.474 18.966L15.44 12 8.474 5.033"></path></svg>
+</button>
+
+     </div>
+     <div class="sign-in-buttons">
+        <a href="register.html">Register</a>
+        <button onclick="window.location='index.html'">Learn More</button>
+     </div>
+        </div>
+      </div>
+      <header>
+        <div class="top-header">
+    <div class="part-1">
+    <nav>
+        <ul>
+            <!-- <li>
+                <a aria-label="Jordan" class="brand-link" data-testid="link" href="https://www.nike.com/jordan">
+                    <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path fill="currentColor" fill-rule="evenodd" d="M13.182 3.733c-.012-.039-.012-.039-.012-.072a.966.966 0 01.922-1.007.97.97 0 011.007.922.964.964 0 01-.917 1.007c-.027.004-.062 0-.101 0-.016.004-.04.004-.056.022-.056.084.14.073-.005.44 0 0 0 .038-.012.077-.012.14-.08.562-.096.793.029.04.04.05.029.13a6.003 6.003 0 01-.09.534c-.04.14-.096.174-.147.202-.073.298-.095.545-.281.905-.022.276-.045.35-.106.484-.017.4.01.46-.281 1.101-.08.3-.017.507.05.821.068.321.276.461.298.793.05.771.017 1.305-.163 1.907l.135.348c.18.084.618.326.36.675.343.19.865.394 1.28.781.176.147.35.315.513.5.316.057.276.08.506.231.675.438 1.749 1.304 2.373 1.906.112.067.147.112.236.163.01.023.017.034.01.04-.026.072-.026.072-.06.14.039.04.095.073.134.107.04.005.04-.006.096-.017.079.073.18.135.214.135.106-.022.084-.005.185-.1.029-.035.084 0 .084 0 .04-.04.113-.119.214-.176.079-.045.23-.045.23-.045.052.006.04.051.029.073-.057.023-.18.057-.247.108-.152.14-.276.353-.276.353.299-.033.484.045.719.023.136-.005.237.006.377-.09 0 0 .14-.096.265-.14.118-.05.23-.017.33.062.069.084.119.084 0 .196-.044.045-.1.096-.18.17-.133.123-.313.291-.5.432a3.11 3.11 0 01-.527.315c-.338.23-.26.174-.523.394-.03.022-.124.078-.163.106-.107.062-.135.006-.197-.118 0 0-.028-.045-.08-.14-.05-.107-.09-.23-.072-.23-.062-.007-.331-.344-.331-.41-.063-.013-.304-.26-.31-.31l-.214-.18c-.253.044-.31-.113-.961-.608-.08-.006-.197-.05-.36-.174-.298-.253-1.007-.815-1.124-.883-.13-.067-.281-.134-.383-.214-.146-.022-.218-.05-.298-.067-.08-.022-.14-.057-.326-.079-.303-.045-.618-.18-.911-.337-.14-.073-.264-.107-.382-.169-.27-.124-.506-.236-.686-.28a2.148 2.148 0 01-.568-.226c-.061-.034-.095-.06-.134-.073-.09-.022-.153.006-.192.022-.23.108-.438.203-.636.31-.18.09-.348.186-.528.286a7.971 7.971 0 01-.534.254s-.534.253-.832.348c-.26.197-.787.546-1.107.715-.158.073-.467.252-.608.292-.08.061-.371.258-.596.421-.18.124-.31.231-.31.231-.106.084-.101.13-.28.045a1.491 1.491 0 00-.13.096c-.14.095-.146.073-.202.067-.101.08-.113.04-.197.13-.061.084 0 .061-.118.106-.028.006-.04.04-.057.056-.094.073-.1.293-.325.304-.135.09-.107.203-.197.191 0 .102-.18.23-.214.23-.292.096-.304-.118-.646.035-.045.016-.113.072-.197.084-.152.022-.332-.006-.444-.102a1.93 1.93 0 01-.326-.398c-.051-.13-.017-.208.163-.332.073-.045.084-.079.208-.084.06-.024.045.01.15-.024.064-.016.064-.005.193-.005.028-.017.067-.022.124-.045.1-.034.196-.062.196-.062s.028-.023.124-.01c.078-.035.169-.08.214-.097-.012-.124.005-.124.06-.174.08-.062.09-.05.148-.01.022-.007.039-.013.027-.035-.01-.073-.061-.107-.045-.247-.022-.057-.061-.129-.05-.174.01-.045.028-.069.056-.079.029-.012.045.006.057.022.028.034.05.135.05.135.006.118.04.26.152.18.067-.062.084-.242.214-.203l.096.085c.084-.073.084-.073.14-.107 0 0-.08-.073-.012-.135.045-.039.108-.067.208-.175.276-.292.422-.42.714-.657a6.811 6.811 0 011.699-.939c.146-.174.28-.286.585-.304.377-.606 1.085-1.136 1.248-1.22.134-.23.19-.208.365-.247.135-.107.175-.107.23-.214.063-.23-.112-.86.383-.877.112-.146.078-.112.196-.248a2.19 2.19 0 01-.118-.5c-.005-.016-.196-.157-.13-.332a2.33 2.33 0 01-.268-.432.202.202 0 01-.063-.012c-.022-.005-.055-.005-.09-.005-.078.196-.163.208-.303.253-.26.512-.35.731-1.046 1.142-.28.298-.382.64-.382.634a.46.46 0 00-.012.321c-.045.107-.027.124-.027.124.01.045.056.106.106.112.079.023.169.023.158.118-.011.113-.163.09-.237.073-.275-.05-.185-.23-.365-.174-.141.085-.196.348-.416.31-.028-.023-.017-.074.006-.119.028-.06.084-.118.056-.14-.146.04-.433.123-.433.123-.135.04-.281-.039-.147-.124.063-.022.153-.05.265-.118 0 0 .062-.072-.057-.039a1.144 1.144 0 01-.416.045s-.257-.039-.292-.056c-.028-.022-.061-.107.017-.1a2.71 2.71 0 00.563-.068c.095-.035.28-.14.382-.186 0 0 .113-.157.18-.19.107-.114.19-.18.28-.299.09-.18.192-.46.5-.906a4.16 4.16 0 01.535-.646s.062-.338.343-.573c.063-.14.157-.31.259-.462a1.7 1.7 0 00.106-.168c.09-.13.186-.377.518-.41 0 0 .147-.102.197-.175.084-.073.074-.186.14-.259-.106-.106-.365-.309-.382-.573a.85.85 0 01.265-.692c.196-.185.398-.275.646-.258.309.055.366.157.455.258.09.101.13.04.163.146.259.073.248.045.237.236.045.057.106.108.1.214.085-.175.108-.208.344-.399.062-.157.1-.315.15-.478.052-.146.114-.298.154-.41-.04-.326.06-.377.196-.664-.022-.039-.016-.05-.006-.112.057-.192.136-.433.186-.596 0 0 .017-.063.085-.063.06-.202.157-.579.179-.663.062-.208.029-.287-.01-.41-.012-.04-.006-.09-.03-.136a5.483 5.483 0 01-.19-.41c-.028-.073-.08-.354-.08-.354-.004-.062-.004-.09-.004-.09z" clip-rule="evenodd"></path></svg>
+                </a>
+            </li> -->
+        <!-- <li>
+            <a aria-label="Converse" class="brand-link" data-testid="link" href="https://www.nike.com/w/converse-akmjx">
+                <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path fill="currentColor" fill-rule="evenodd" d="M8.045 10.99V7.73L6.19 10.37 3.115 9.35l1.94 2.64-1.905 2.64 3.045-1.005 1.855 2.64v-3.26l3.11-1.02-3.115-.995zm12.84 1.02l-6.82 7.49H8.21l6.825-7.49L8.21 4.5h5.856l6.819 7.51z" clip-rule="evenodd"></path></svg>
+            </a>
+        </li> -->
+            </ul>
+    </nav>
+    </div>
+    <div class="part-2">
+    <nav>
+        <ul>
+            <li>
+                <a href="#">
+                    <p>Learn More</p>
+                </a>
+                <div class="verticle-line">
+    
+                </div>
+            </li>
+            <li>
+                <a href="#">
+                    <p>Help</p>
+                </a>
+                <div class="verticle-line">
+                    
+                </div>
+            </li>
+            <li>
+                <a href="register.html">
+                    <p>Join Us</p>
+                </a>
+                <div class="verticle-line">
+                    
+                </div>
+            </li>
+            <li>
+                <a href="login.html">
+                    <p>Sign In</p>
+                </a>
+                <div class="verticle-line">
+                    
+                </div>
+            </li>
+        </ul>
+    </nav>
+    </div>
+        </div>
+        <div class="main-header">
+    <div class="part-1">
+        <a aria-label="Nike Home Page" class="swoosh-link d-flex justify-content-normal align-items-center" data-testid="link" href="index.html">
+            <img src="https://voags.com/Media/website.png" height="45px" alt="t">
+        </a>
+    </div>
+    <div class="part-2">
+    <nav>
+        <ul>
+            <li>
+                <div>
+                    <a href="workshop.html">Workshops</a>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <a href="travel-mobility.html">Travel & Mobility</a>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <a href="Affiliation-programs.html">Affiliate-section</a>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <a href="#Gamification">Gamification</a>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <a href="#AI-Integration">AI Integration</a>
+                </div>
+            </li>
+            
+        </ul>
+    </nav>
+    </div>
+    <div class="part-3">
+    <div class="user-tool-container">
+        <search></search>
+       
+        <button aria-label="menu" class="nds-btn nds-button--icon-only mobile-btn css-dp3fdz ex41m6f0 btn-primary-light "type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" aria-haspopup="true">
+            <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none">
+                <path stroke="currentColor" stroke-width="1.5" d="M21 5.25H3M21 12H3m18 6.75H3"></path></svg>
+                <span class="ripple">
+    
+                </span>
+            </button>
+    </div>
+    </div>
+        </div>
+    </header>
+    <main>
+
+
+        <section class="main-section">
+            <video autoplay loop playsinline muted poster="assets/Images/0002.jpg">
+                <source src="assets/Images/3171-166338953.mp4" type="video/mp4">
+                <source src="assets/Images/3171-166338953.webm" type="video/webm">
+               
+                Your browser does not support the video tag.
+              </video>
+        </section>
+
+
+        <!-- section-2 starts -->
+        <!-- <section class="container-fluid section-2 d-flex justify-content-center ">
+            <div class=" container">
+                <h2  >Customised framework contracts for students</h2>
+                <div class="Contracts-for-students">
+                    <div class="">
+                        <h3>Insurance</h3>
+                        <p>Discover insurance packages specially 
+                            tailored for students. From affordable 
+                            health insurance with additional 
+                            benefits for semesters abroad to 
+                            reasonably priced liability and disability 
+                            insurance - we offer you comprehensive 
+                            protection at student rates.</p>
+                    </div>
+                    <div class="">
+                        <h3>Technology and electronics</h3>
+                        <p>Benefit from exclusive discounts on 
+                            laptops, tablets and smartphones from 
+                            top brands like Dell, Lenovo and 
+                            Samsung. In addition, you will receive 
+                            discounts on essential accessories and 
+                            important educational software such as 
+                            Microsoft Office and Adobe Creative 
+                            Cloud.</p>
+                    </div>
+                    <div class="">
+                        <h3>Mobile and internet</h3>
+                        <p>Enjoy flexible, monthly cancellable 
+                            tariffs with extra data volume, specially 
+                            tailored to your needs as a student. Our 
+                            combination packages of internet and 
+                            mobile are optimally aligned with your 
+                            student life.
+                            </p>
+                    </div>
+                </div>
+            </div>
+
+        </section> -->
+        <!-- section-2 ends -->
+
+        <!-- section-3-starts -->
+        <section class="heading-container">
+            <h2 class="professional-heading main-heading">Travel and Mobility for Global Explorers</h2>
+          </section>
+<style>
+   /* Container for heading */
+.heading-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 150px; /* Adjust the height */
+  background-color: #f5f5f5; /* Light background for contrast */
+}
+
+/* Professional heading styling */
+.professional-heading {
+  font-size: 32px; /* Adjust the font size */
+  font-weight: bolder; /* Make it even bolder */
+  color: #212121; /* Professional dark gray color */
+  text-transform: none; /* Remove uppercase transformation */
+  letter-spacing: 2px; /* Add spacing between letters */
+  text-align: center; /* Center align the text */
+  position: relative; /* Enable pseudo-element positioning */
+  margin: 0; /* Remove default margins */
+}
+
+/* Decorative underline */
+
+
+
+
+</style>
+
+        <!-- <section id="Community-section" class="container-fluid  section-3  ">
+            <div class="container d-flex justify-content-between">
+                <div class="part-1">
+                    <img src="assets/Images/Your-Companion-Through-University_page-0003.jpg" alt="not">
+                </div>
+                <div class="part-2">
+                    <h2 >Travel and Mobility for Global 
+                        Explorers</h2>
+                        <div class="timeline">
+                            <div class="timeline-item  ">
+                              <div class="number">1</div>
+                              <h4>Educational Trips</h4>
+                              <p>Broaden your horizons with our exclusive offers for cultural and academic trips. From fascinating excursions to intensive workshops abroad - we offer you unique opportunities to explore the world and gain valuable experiences.</p>
+                            </div>
+                            <div class="timeline-item ">
+                              <div class="number">2</div>
+                              <h4>Flexible Mobility</h4>
+                              <p>Thanks to our partnerships with renowned providers like Sixt, Europcar, and local car-sharing services, you enjoy affordable and flexible mobility. Whether for a day trip or a longer internship - we ensure that you remain mobile at all times.</p>
+                            </div>
+                            <div class="timeline-item ">
+                              <div class="number">3</div>
+                              <h4>Easy Start to Accommodation</h4>
+                              <p>Moving into your first own flat or shared apartment becomes a breeze with our complete packages. From practical kitchen starter sets to sustainable furniture options - we support you in making your new home cozy and functional.</p>
+                            </div>
+                          </div>
+                </div>
+            </div>
+    
+
+        </section> -->
+        <section class="image-slider-container">
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./assets/Images/new/edu_4_11zon.jpg" alt="Movie 1">
+                    <div class="card-content">
+                        <h2 class="professional-heading">Educational Trips</h2>
+                        <p>Broaden your horizons with our exclusive offers for cultural and academic trips. From fascinating excursions to intensive workshops abroad - we offer you unique opportunities to explore the world and gain valuable experiences.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./assets/Images/new/friends-using-different-options-individual-transport_5_11zon.jpg" alt="Movie 2">
+                    <div class="card-content">
+                        <h2 class="professional-heading">Flexible Mobility</h2>
+                        <p>Thanks to our partnerships with renowned providers like Sixt, Europcar, and local car-sharing services, you enjoy affordable and flexible mobility. Whether for a day trip or a longer internship - we ensure that you remain mobile at all times.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./assets/Images/new/young-man-working-his-laptop-hotel-room_4_11zon.jpg" alt="Movie 3">
+                    <div class="card-content">
+                        <h2 class="professional-heading"> Easy Start to Accommodation</h2>
+                        <p>Moving into your first own flat or shared apartment becomes a breeze with our complete packages. From practical kitchen starter sets to sustainable furniture options - we support you in making your new home cozy and functional.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <style>
+            /* General styles */
+            .image-slider-container {
+                padding: 20px;
+                background-color: #f9f9f9;
+            }
+        
+            /* Cards container */
+            .cards-container {
+                display: flex !important;
+              justify-content: space-between !important;
+                flex-wrap: wrap !important; /* Responsive behavior */
+            }
+        
+  
+        
+            /* Content below the image */
+            .card-content {
+                padding: 20px;
+                background-color: #fff; /* Background for the content */
+                border-radius: 0 0 15px 15px; /* Rounded corners at the bottom */
+            }
+        
+            .card-content h2 {
+                font-size: 20px;
+                margin: 10px 0;
+            }
+        
+            .card-content p {
+                font-size: 16px;
+            }
+        
+            /* Hover effect removal */
+            .card:hover {
+                transform: none; /* Remove the lift effect */
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Maintain default shadow */
+            }
+        
+            /* No overlay effect */
+            .card-overlay {
+                display: none; /* Hide the overlay */
+            }
+        </style>
+              
+        <!-- section-3 ends -->
+        <section class="heading-container">
+            <h2 class="professional-heading main-heading">Diverse Affiliate Programmes</h2>
+          </section>
+          <section class="image-slider-container">
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./assets/Images/new/modern-stationary-collection-arrangement_2_11zon.jpg" alt="Movie 1">
+                    <div class="card-content">
+                        <h2 class="professional-heading">Technology and Electronics</h2>
+                        <p>Benefit from exclusive brand partnerships with HP, Dell, Bose, and Apple. Enjoy not only special discounts but also attractive cashback programmes when purchasing devices and accessories. This way, you can save on your tech investments and always stay up-to-date.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./assets/Images/new/life-insurance-protection-beneficiary-safeguard-concept_8_11zon.jpg" alt="Movie 2">
+                    <div class="card-content">
+                        <h2 class="professional-heading">Insurance</h2>
+                        <p>Use our direct affiliate links to leading insurance providers who offer tailored policies for students. Compare and take out insurance directly through our platform - simple, transparent, and optimally suited to your needs.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./assets/Images/new/beautiful-girl-making-drip-coffee-sunrise-viewpoint-pha-hi-village-chiang-rai-province-thailand_1_11zon.jpg" alt="Movie 3">
+                    <div class="card-content">
+                        <h2 class="professional-heading">Leisure and Travel</h2>
+                        <p>Discover a world of special offers for theme parks, concert tickets, and events. Plan your next trip with our exclusive travel packages, which have been specially put together for students at affordable prices. Experience more without blowing your budget!.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <style>
+            /* General styles */
+            .image-slider-container {
+                padding: 20px;
+                background-color: #f9f9f9;
+            }
+        
+        
+        </style>
+
+
+
+
+
+
+
+        <!-- section-4 starts -->
+        <!-- <section id="Affiliate-section" class="container-fluid section-4 d-flex flex-wrap justify-content-between  ">
+            <div class="container d-flex justify-content-between">
+                <div class="part-1">
+                    <h2 class="mb-5">Diverse Affiliate Programmes</h2>
+                    <div class="accordion-item ">
+                        <div class="accordion-title">
+                          Technology and Electronics
+                        </div>
+                        <div class="accordion-content">
+                          Benefit from exclusive brand partnerships with HP, Dell, Bose, and Apple. Enjoy not only special discounts but also attractive cashback programmes when purchasing devices and accessories. This way, you can save on your tech investments and always stay up-to-date.
+                        </div>
+                      </div>
+                      <div class="accordion-item ">
+                        <div class="accordion-title">
+                          Insurance
+                        </div>
+                        <div class="accordion-content">
+                          Use our direct affiliate links to leading insurance providers who offer tailored policies for students. Compare and take out insurance directly through our platform - simple, transparent, and optimally suited to your needs.
+                        </div>
+                      </div>
+                      <div class="accordion-item ">
+                        <div class="accordion-title">
+                          Leisure and Travel
+                        </div>
+                        <div class="accordion-content">
+                          Discover a world of special offers for theme parks, concert tickets, and events. Plan your next trip with our exclusive travel packages, which have been specially put together for students at affordable prices. Experience more without blowing your budget!
+                        </div>
+                      </div>
+                             </div>
+                             <div class="part-2  ">
+                    <img src="assets/Images/Your-Companion-Through-University_page-0004.jpg" alt="alt">
+                             </div>
+            </div>
+       
+
+        </section> -->
+        <!-- section-4-ends -->
+        <section class="heading-container">
+            <h2 class="professional-heading main-heading">Diverse Affiliate Programmes</h2>
+          </section>
+          <section class="image-slider-container">
+            <div class="cards-container">
+                <div class="card card-half-height">
+                    <img src="./assets/Images/new/front-view-man-holding-lottery-tickets_6_11zon.jpg" alt="Movie 1">
+                    <div class="card-content">
+                        <h2 class="professional-heading">Collect Points</h2>
+                        <p>Collect points for every activity on our platform. Whether you attend workshops, use exclusive offers or invite friends - every action will take you further. Watch your point balance grow and level up.</p>
+                    </div>
+                </div>
+                <div class="card card-half-height"">
+                    <img src="./assets/Images/new/full-shot-fit-man-ready-run-suit_7_11zon.jpg" alt="Movie 2">
+                    <div class="card-content">
+                        <h2 class="professional-heading">Master Challenger</h2>
+                        <p>Take on exciting challenges that test and expand your skills. From learning sprints to creative projects - every challenge mastered will advance you not only in our game, but in your personal development as well.</p>
+                    </div>
+                </div>
+                <div class="card card-half-height"">
+                    <img src="./assets/Images/new/young-woman-holding-credit-card-and-smartphone-and-thinking-with-chin-on-fist-online-mobile-shopping-e-commerce_5_11zon.jpg" alt="Movie 3">
+                    <div class="card-content">
+                        <h2 class="professional-heading">Redeem Rewards</h2>
+                        <p>Exchange your hard-earned points for attractive rewards. Choose from exclusive discounts, access to VIP events or unique experiences. The more active you are, the greater the selection of exciting prizes waiting for you.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <style>
+            /* General styles */
+            .image-slider-container {
+                padding: 20px;
+                background-color: #f9f9f9;
+            }
+        
+           
+        </style>       
+        <!-- sec-5-starts -->
+        <!-- <section id="WorkshopEvent-section" class=" section-5">
+            
+      <div >
+        <div class="container">
+            <h2 >Personal Development through Workshops and 
+                Events</h2>
+        </div>
+    
+            <div class="main-images-box">
+                <div class="main-image">
+                   
+                    <div class="content-overlay">
+                        <h4>
+                            Career Development
+                        </h4>
+                        <p>Boost your career prospects with our practical workshops. Learn how to write compelling applications, present yourself effectively in interviews, and network efficiently. Benefit from the experiences of successful professionals and prepare optimally for your career start.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+                <div class="main-image">
+                    
+                    <div class="content-overlay">
+                        <h4>
+                            Mindset and Stress Management
+                        </h4>
+                        <p>Master the challenges of your studies with our workshops on resilience, relaxation techniques, and time management. Learn how to maintain balance even in stressful exam periods and care for your mental health.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+                <div class="main-image">
+                    
+                    <div class="content-overlay">
+                        <h4>
+                            Financial Education
+                        </h4>
+                        <p>Become a finance pro with our training on budgeting, tax optimisation, and dealing with funding. Understand the basics of financial independence and lay the foundation for a secure financial future during your studies.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+                <div class="main-image">
+                   
+                    <div class="content-overlay">
+                        <h4>
+                            Networking Events
+                        </h4>
+                        <p>Make valuable contacts at our exclusive meetings with industry experts, alumni, and potential employers. Expand your professional network and discover exciting career opportunities in a relaxed atmosphere.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            
+            </div>
+      </div>
+  
+        </section> -->
+        <!-- sec - 5 -end  -->
+        <!--  -->
+        <!-- sec-6- starts  -->
+        <!-- <section id="WorkshopEvent-section" class=" section-5">
+            
+            <div >
+              <div class="container">
+                  <h2 >Personal Development through Workshops and 
+                      Events</h2>
+              </div>
+          
+                  <div class="main-images-box">
+                      <div class="main-image">
+                         
+                          <div class="content-overlay">
+                              <h4>
+                                  Career Development
+                              </h4>
+                              <p>Boost your career prospects with our practical workshops. Learn how to write compelling applications, present yourself effectively in interviews, and network efficiently. Benefit from the experiences of successful professionals and prepare optimally for your career start.</p>
+                              <a href="#">Learn More</a>
+                          </div>
+                      </div>
+                      <div class="main-image">
+                          
+                          <div class="content-overlay">
+                              <h4>
+                                  Mindset and Stress Management
+                              </h4>
+                              <p>Master the challenges of your studies with our workshops on resilience, relaxation techniques, and time management. Learn how to maintain balance even in stressful exam periods and care for your mental health.</p>
+                              <a href="#">Learn More</a>
+                          </div>
+                      </div>
+                      <div class="main-image">
+                          
+                          <div class="content-overlay">
+                              <h4>
+                                  Financial Education
+                              </h4>
+                              <p>Become a finance pro with our training on budgeting, tax optimisation, and dealing with funding. Understand the basics of financial independence and lay the foundation for a secure financial future during your studies.</p>
+                              <a href="#">Learn More</a>
+                          </div>
+                      </div>
+                      <div class="main-image">
+                         
+                          <div class="content-overlay">
+                              <h4>
+                                  Networking Events
+                              </h4>
+                              <p>Make valuable contacts at our exclusive meetings with industry experts, alumni, and potential employers. Expand your professional network and discover exciting career opportunities in a relaxed atmosphere.</p>
+                              <a href="#">Learn More</a>
+                          </div>
+                      </div>
+                  </div>
+                  
+                  </div>
+            </div>
+        
+              </section> -->
+
+<br>
+<section class="heading-container">
+    <h2 class="professional-heading main-heading">Personal Development through Workshops and 
+        Events</h2>
+  </section>
+  <br>
+<!-- Bootstrap CDN -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+<section class="outter hero-video">
+    <section class="video-container">
+        <video src="./assets/Workshop Render0001-0266.mp4" autoplay loop playsinline muted></video>
+
+        <!-- Bootstrap Container for Centering -->
+        <div class="container" style="padding-top: 25px;">
+            <div class="row justify-content-center">
+                <div class="col-6 col-md-6 col-lg-6 mb-4"> <!-- 2 columns per row on mobile and desktop -->
+                    <div class="box">
+                        <h5 class="professional-heading1">Career Development</h5>
+                        <p>Boost your career prospects with our practical workshops. Learn how to write compelling applications, present yourself effectively in interviews, and network efficiently. Benefit from the experiences of successful professionals and prepare optimally for your career start.</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-6 col-lg-6 mb-4"> <!-- 2 columns per row on mobile and desktop -->
+                    <div class="box">
+                        <h5 class="professional-heading1">Mindset and Stress Management</h5>
+                        <p>Master the challenges of your studies with our workshops on resilience, relaxation techniques, and time management. Learn how to maintain balance even in stressful exam periods and care for your mental health.</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-6 col-lg-6 mb-4"> <!-- 2 columns per row on mobile and desktop -->
+                    <div class="box">
+                        <h5 class="professional-heading1">Financial Education</h5>
+                        <p>Become a finance pro with our training on budgeting, tax optimisation, and dealing with funding. Understand the basics of financial independence and lay the foundation for a secure financial future during your studies.</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-6 col-lg-6 mb-4"> <!-- 2 columns per row on mobile and desktop -->
+                    <div class="box">
+                        <h5 class="professional-heading1">Networking Events</h5>
+                        <p>Make valuable contacts at our exclusive meetings with industry experts, alumni, and potential employers. Expand your professional network and discover exciting career opportunities in a relaxed atmosphere.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<style>
+/* Hero Video Section */
+.outter.hero-video {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.video-container {
+    height: 550px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+video {
+    object-fit: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+/* Boxes Section */
+.box {
+    background-color: rgba(255, 255, 255, 0.7);  /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: #333;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    height: 220px; /* Fixed height for uniform box height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures text remains spaced evenly */
+}
+
+h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+p {
+    font-size: 14px;
+    color: #555;
+    flex-grow: 1; /* Allow text to take available space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .box {
+        padding: 15px;
+        height: auto; /* Adjust height based on content */
+    }
+}
+
+/* Extra small screen responsiveness (max-width: 480px) */
+@media (max-width: 480px) {
+    .box {
+        padding: 11px;
+        height: auto; /* Auto height to adjust based on content */
+    }
+
+    .video-container {
+        height: 700px; /* Increased the video height for small screens */
+    }
+
+    .button {
+        font-size: 14px; /* Adjust button font size for small screens */
+        padding: 12px 24px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+}
+</style>
+
+
+
+              <br>
+        <section class="heading-container">
+            <h2 class="professional-heading main-heading">AI Integration for a Smart Student Life</h2>
+          </section>
+<style>
+   /* Container for heading */
+.heading-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 150px; /* Adjust the height */
+  background-color: #f5f5f5; /* Light background for contrast */
+}
+
+/* Professional heading styling */
+.professional-heading {
+  font-size: 32px; /* Adjust the font size */
+  font-weight: 900; /* Maximum boldness (Roboto's boldest weight) */
+  font-family: 'Roboto', sans-serif; /* Roboto font family */
+  color: #212121; /* Professional dark gray color */
+  text-transform: none; /* Remove uppercase transformation */
+  letter-spacing: 2px; /* Add spacing between letters */
+  text-align: center; /* Center align the text */
+  position: relative; /* Enable pseudo-element positioning */
+  margin: 0; /* Remove default margins */
+}
+
+
+/* Decorative underline */
+
+
+
+.professional-heading1 {
+ 
+  font-family: 'Roboto', sans-serif; /* Roboto font family */
+
+  text-align: center; /* Center align the text */
+  position: relative; /* Enable pseudo-element positioning */
+  margin: 0; /* Remove default margins */
+}
+
+
+/* Decorative underline */
+
+
+
+</style>
+
+        <!-- <section id="Community-section" class="container-fluid  section-3  ">
+            <div class="container d-flex justify-content-between">
+                <div class="part-1">
+                    <img src="assets/Images/Your-Companion-Through-University_page-0003.jpg" alt="not">
+                </div>
+                <div class="part-2">
+                    <h2 >Travel and Mobility for Global 
+                        Explorers</h2>
+                        <div class="timeline">
+                            <div class="timeline-item  ">
+                              <div class="number">1</div>
+                              <h4>Educational Trips</h4>
+                              <p>Broaden your horizons with our exclusive offers for cultural and academic trips. From fascinating excursions to intensive workshops abroad - we offer you unique opportunities to explore the world and gain valuable experiences.</p>
+                            </div>
+                            <div class="timeline-item ">
+                              <div class="number">2</div>
+                              <h4>Flexible Mobility</h4>
+                              <p>Thanks to our partnerships with renowned providers like Sixt, Europcar, and local car-sharing services, you enjoy affordable and flexible mobility. Whether for a day trip or a longer internship - we ensure that you remain mobile at all times.</p>
+                            </div>
+                            <div class="timeline-item ">
+                              <div class="number">3</div>
+                              <h4>Easy Start to Accommodation</h4>
+                              <p>Moving into your first own flat or shared apartment becomes a breeze with our complete packages. From practical kitchen starter sets to sustainable furniture options - we support you in making your new home cozy and functional.</p>
+                            </div>
+                          </div>
+                </div>
+            </div>
+    
+
+        </section> -->
+        <section class="image-slider-container">
+            <div class="cards-container">
+                <div class="card card-half-height"">
+                    <img src="./assets/Images/new/close-up-young-business-person-doing-internship_2_11zon.jpg" alt="Movie 1">
+                    <div class="card-content">
+                        <h2 class="professional-heading">Personalised Recommendations</h2>
+                        <p>Our AI analyses your field of study, interests and past activities to suggest customised offers, workshops and content. This way, you'll find the exact support you need for your current stage of studies.</p>
+                    </div>
+                </div>
+                <div class="card card-half-height">
+                    <img src="./assets/Images/new/person-office-analyzing-checking-finance-graphs_3_11zon.jpg" alt="Movie 2">
+                    <div class="card-content">
+                        <h2 class="professional-heading">Intelligent Budgeting</h2>
+                        <p>Our AI-powered budgeting tool helps you keep track of your monthly expenses and set realistic savings goals. Learn how to use your money wisely and stay financially independent even on a student budget.</p>
+                    </div>
+                </div>
+                <div class="card card-half-height"">
+                    <img src="./assets/Images/new/man-with-bag-outside_1_11zon.jpg" alt="Movie 3">
+                    <div class="card-content">
+                        <h2 class="professional-heading">Smart Notifications</h2>
+                        <p>Never miss important deadlines or offers again. Our AI system reminds you in time of application deadlines, upcoming workshops or new discount campaigns that perfectly match your interests.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <style>
+            /* General styles */
+            .image-slider-container {
+                padding: 20px;
+                background-color: #f9f9f9;
+            }
+        
+          
+        </style>
+        
+
+
+
+        <!-- <section id="AI-Integration" class="container-fluid section-6  ">
+        <div class="container d-flex justify-content-between">
+            <div class="part-1">
+<h2>AI Integration for a Smart 
+    Student Life</h2>
+    <div class="box-item">
+        <img src="assets/Images/brain-removebg-preview.png" alt="not found">
+        <h4>Personalised Recommendations
+        </h4>
+        <p>Our AI analyses your field of study, interests and past activities to suggest 
+            customised offers, workshops and content. This way, you'll find the exact 
+            support you need for your current stage of studies.
+            </p>
+    </div>
+    <div class="box-item ">
+        <img src="assets/Images/calculator-removebg-preview.png" alt="not found">
+        <h4>Intelligent Budgeting
+        </h4>
+        <p>Our AI-powered budgeting tool helps you keep track of your monthly 
+            expenses and set realistic savings goals. Learn how to use your money 
+            wisely and stay financially independent even on a student budget.
+            
+            </p>
+    </div>
+    <div class="box-item ">
+        <img src="assets/Images/bell-removebg-preview.png" alt="not found">
+        <h4>Smart Notifications
+        </h4>
+        <p>Never miss important deadlines or offers again. Our AI system reminds you 
+            in time of application deadlines, upcoming workshops or new discount 
+            campaigns that perfectly match your interests
+            </p>
+    </div>
+            </div>
+            <div class="part-2 ">
+                <img src="assets/Images/Your-Companion-Through-University_page-0006.jpg" alt="not found">
+            </div>
+        </div>
+
+        </section> -->
+<!-- <section id="Gamification" class="container-fluid section-7">
+ 
+    <div class="container d-flex justify-content-between">
+        <div class="part-1">
+            <h2 class="mb-5 ">Gamification: Learning and 
+                Winning</h2>
+<div class="item-box ">
+    <div>
+        <img src="assets/Images/Your-Companion-Through-University_page-0007__1_-removebg-preview.png" alt="not">
+    </div>
+    <div>
+        <h4>Collect Points</h4>
+        <p>Collect points for every activity on our platform. Whether 
+            you attend workshops, use exclusive offers or invite friends - 
+            every action will take you further. Watch your point balance 
+            grow and level up.
+            </p>
+    </div>
+</div>
+<div class="item-box " >
+    <div>
+        <img src="assets/Images/Your-Companion-Through-University_page-0007__2_-removebg-preview (2).png" alt="not">
+    </div>
+    <div>
+        <h4>Master Challenges</h4>
+        <p>Take on exciting challenges that test and expand your skills. 
+            From learning sprints to creative projects - every challenge 
+            mastered will advance you not only in our game, but in your 
+            personal development as well.
+            </p>
+    </div>
+</div>
+<div class="item-box ">
+    <div>
+        <img src="assets/Images/Your-Companion-Through-University_page-0007__3_-removebg-preview.png" alt="not">
+    </div>
+    <div>
+        <h4>Redeem Rewards
+        </h4>
+        <p>Exchange your hard-earned points for attractive rewards. 
+            Choose from exclusive discounts, access to VIP events or 
+            unique experiences. The more active you are, the greater the 
+            selection of exciting prizes waiting for you.
+            </p>
+    </div>
+</div>
+        </div>
+        <div class="part-2 ">
+            <img src="assets/Images/Your-Companion-Through-University_page-0007.jpg" alt="not">
+        </div>
+    </div>
+</section> -->
+<section class="container-fluid section-8">
+    <div class="container">
+        <h2 class="text-center text-white wow animate__animated animate__fadeInUp">Your Path to Success - Simple, Flexible, Transparent</h2>
+        <div class="middle-box">
+            <table>
+                <thead>
+                    <th>Simplicity</th>
+                    <th>Flexibility</th>
+                    <th>Transparency</th>
+
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Central dashboard for all information 
+                            and functions</td>
+                            <td>Offers and workshops tailored to your 
+                                schedule</td>
+                                <td>
+                                    Clear presentation of all terms and 
+costs
+                                </td>
+                    </tr>
+                    <tr>
+                        <td>Intuitive navigation through all 
+                            platform areas
+                            </td>
+                            <td>24/7 access to resources and support</td>
+                            <td>Detailed explanations of all offers and 
+                                services</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Quick access to personalised <br>
+recommendations
+                        </td>
+                        <td>
+                            Mobile optimisation for learning and 
+planning on the go
+                        </td>
+                        <td>
+                            Regular updates on changes and new 
+features
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</section>
+        <!-- sec 6 ends  -->
+
+        <!-- slider starts -->
+
+
+        <!-- end  -->
+
+        <!-- last section starts  -->
+
+   
+
+        <!-- all section ends -->
+    </main>
+  <footer>
+
+    <div class="part-1">
+        <img src="https://voags.com/Media/website.png" height="60px" alt="not foun">
+    </div>
+    <div class="part-2">
+        <div>
+            <ul>
+                <li>
+                    <a href="#">Find Discount</a>
+                </li>
+                <li>
+                    <a href="#">Help</a>
+                </li>
+                <li>
+                    <a href="register.html">Join Us</a>
+                </li>
+                <li>
+                    <a href="login.html">Sign In</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="part-3">
+        <div class="desktop-menu">
+            <div class="menu-col">
+                <h5>Resources</h5>
+<a href="#">info@voags.com</a>
+<a href="#">+1 234 56789</a>
+<a href="#">123 Main Street, Anytown, USA</a>
+
+            </div>
+            <div class="menu-col">
+                <h5>Help</h5>
+<a href="#">Get Help</a>
+<a href="#">Order Status</a>
+<a href="#">Shipping and Delivery</a>
+<a href="#">Returns
+
+</a>
+<a href="#">Order Cancellation</a>
+<a href="">Payment Options</a>
+<a href="">Gift Card Balance</a>
+<a href="">Contact Us</a>
+            </div>
+            <div class="menu-col">
+                <h5>Company</h5>
+<a href="#">About Voags</a>
+<a href="#">News</a>
+<a href="#">Careers</a>
+<a href="#">Investors</a>
+<a href="#">Sustainability</a>
+<a href="#">Purpose</a>
+            </div>
+            <div class="menu-col">
+                <h5>Promotions & Discounts</h5>
+<a href="#">Student</a>
+<a href="#">Military</a>
+<a href="#">Teacher</a>
+<a href="#">Birthday</a>
+
+            </div>
+        </div>
+    </div>
+    <div class="part-4">
+        <ul>
+            <li>© <!-- -->2025<!-- --> VOAGS, Inc. All Rights Reserved</li>
+            <!--<li>Guides</li>-->
+            <!--<li>Terms Of Sale</li>-->
+            <!--<li>Term Of Use</li>-->
+            <!--<li>Nike Privacy Policy</li>-->
+            <!--<li>Your Privacy Choices</li>-->
+            <!--<li>CA Supply Chains Act</li>-->
+        </ul>
+    </div>
+  </footer>
+
+    <!-- scripts -->
+   
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+       
+    <script src="assets/js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        new WOW().init();
+        const video = document.getElementById("video-background");
+  video.playbackRate = 0.8;
+  function openmenu(){
+    document.querySelector('.respo-header').classList.toggle('active');
+  }
+    </script>
+</body>
+
+</html>
